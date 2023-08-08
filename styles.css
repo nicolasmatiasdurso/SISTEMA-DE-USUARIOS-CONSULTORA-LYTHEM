@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('fondo1.jpeg');
+    background-size: cover; /* Ajustar la imagen al tamaño de la ventana sin distorsión */
+    background-repeat: no-repeat; /* Evitar que la imagen se repita */
+    background-position: center; /* Centrar la imagen en la ventana */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+
+/* styles.css */
+
+/* Estilos para el nav */
+nav {
+    display: flex;
+    top: 36px;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 60px; /* Altura */
+    z-index: 1000; /* Para que esté por encima de los otros elementos */
+}
+
+nav h1 {
+    margin: 0;
+    padding: 10px;
+    text-shadow: rgb(19, 10, 10);
+    font-size: 30px; /* Tamaño de fuente */
+    color: white; /* Color de texto */
+}
+
+/* Resto de tus estilos */
+.container {
+    text-align: center;
+    margin-top: 80px; /* Dar espacio debajo del nav */
+}
+
+/* Resto de tus estilos */
+
+.links{
+color: red;
+font-size: 14px;
+margin-top: 10px;
+text-align: end;
+}
+
+
+#mensajeError{
+color: red;
+margin-bottom: 20px;
+font-size: 12px;
+}
+
+#typingEffect {
+    color: #f7f7fa; /* Cambia el color según tus preferencias */
+    font-size: 28px; /* Cambia el tamaño de fuente según tus preferencias */
+    text-align: center;
+    text-align: left;
+    margin-top: 20px; /* Espacio superior para separarlo del formulario */
+    text-transform: uppercase; /* Convertir el texto en mayúsculas */
+    letter-spacing: 3px; /* Espaciado entre letras */
+    font-weight: bold; /* Grosor de fuente */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra de texto */
+  }
+  
+

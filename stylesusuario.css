@@ -1,0 +1,151 @@
+/* informacion-usuario.css */
+.container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: -10px;
+    height: 120vh;
+  }
+  .container2 {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    height: fit-content;
+    position: absolute;
+    margin-top: 4px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+
+  h1 {
+    margin-top: 0;
+    color: #333;
+    font-size: 20px;
+  }
+  
+  p {
+    color: #666;
+    text-align: left;
+  }
+  
+  button {
+    background-color: #ff6347;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+  
+body{
+
+  background-image: url('fondo3.webp');
+  background-size: contain;
+}
+
+/* Tu CSS existente */
+
+/* Agrega estilos para el formulario de contacto */
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 5px;
+}
+
+button[type="submit"] {
+  background-color: #ff6347;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button[type="submit"]:hover{
+background-color: #fff;
+color: #ff6347;
+border: 1px solid black;
+padding: 10px 20px;
+border-radius: 4px;
+margin-top: 20px;
+}
+/* Estilos para el encabezado del formulario */
+.container2 h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Estilos adicionales para el cuerpo del formulario */
+.container2 {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el fondo de la página */
+
+/* informacion-usuario.css */
+/* ... Otros estilos ... */
+
+#emailDisplay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+nav h1 {
+  text-align: left;
+  margin:10px;
+  padding: 10px;
+  padding: 10px;
+  text-shadow: #333;
+  color: rgb(7, 5, 1);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px; /* Tamaño de fuente */
+}
+
+/* Resto de tus estilos */
+
+#typingEffect {
+  color: #010102; /* Color de texto */
+  font-size: 24px; /* Tamaño de fuente */
+  font-family: 'Helvetica', sans-serif; /* Fuente */
+  text-align: left;
+  margin-top: 20px; /* Espacio superior para separarlo del formulario */
+  text-transform: uppercase; /* Convertir el texto en mayúsculas */
+  letter-spacing: 3px; /* Espaciado entre letras */
+  font-weight: bold; /* Grosor de fuente */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra de texto */
+}
+
+
+
+/* Resto de tus estilos */
